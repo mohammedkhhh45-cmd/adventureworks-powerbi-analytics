@@ -1,0 +1,97 @@
+{
+  "name": "AdventureWorks Dark Theme",
+  "dataColors": [
+    "#22CCC2",
+    "#00A896",
+    "#FF5A5F",
+    "#FFB400",
+    "#8B5CF6",
+    "#3B82F6",
+    "#EC4899",
+    "#10B981"
+  ],
+  "background": "#1A1B1C",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#22CCC2",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#121314" } }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#2A2B2C" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#3D3E40" } },
+            "radius": 6
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "alignment": "Left"
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "gridlineShow": false,
+            "labelColor": { "solid": { "color": "#CCCCCC" } },
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineShow": true,
+            "gridlineColor": { "solid": { "color": "#3D3E40" } },
+            "labelColor": { "solid": { "color": "#CCCCCC" } },
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#1A1B1C" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": { "solid": { "color": "#22CCC2" } }, "fontSize": 26, "fontFamily": "Segoe UI Bold" }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#CCCCCC" } }, "fontSize": 10, "fontFamily": "Segoe UI" }
+        ]
+      }
+    }
+  }
+}
